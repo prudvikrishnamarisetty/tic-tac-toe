@@ -1,0 +1,36 @@
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+.game-status {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#reset {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
